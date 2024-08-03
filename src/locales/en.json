@@ -1,0 +1,18 @@
+{
+  "Home": "Home",
+  "About": "About Me",
+  "locales": {
+    "en": {
+      "name": "English",
+      "flag": "/img/flags/icon-USA.png"
+    },
+    "es": {
+      "name": "Español",
+      "flag": "/img/flags/icon-espanha.png"
+    },
+    "pt": {
+      "name": "Português",
+      "flag": "/img/flags/icon-brazil.png"
+    }
+  }
+}

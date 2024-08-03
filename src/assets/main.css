@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --bg-main: #121212;
+  --bg-secondary: #1e1e1e;
+  --text-main: #e0e0e0;
+  --text-secondary: #b3b3b3;
+  --interactive: #bb86fc;
+  --highlight: #03dac5;
+  --error: #cf6679;
+}
+body {
+  min-height: 100vh;
+
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  font-family: Montserrat, sans-serif;
+  font-size: 15px;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+.navbar,
+.dropdown-menu,
+.card,
+.modal-content {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-main) !important;
+}
+
+/* Text Colors */
+.text-primary {
+  color: var(--highlight) !important;
+}
+
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--interactive) !important;
+  border-color: var(--interactive) !important;
+}
+
+.btn-primary:hover {
+  background-color: lighten(var(--interactive), 10%) !important;
+  border-color: lighten(var(--interactive), 10%) !important;
+}
+
+/* Form Elements */
+input,
+textarea,
+select {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-main) !important;
+  border: 1px solid var(--text-secondary) !important;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--interactive) !important;
+  box-shadow: 0 0 0 0.2rem rgba(187, 134, 252, 0.25) !important;
+  outline: none !important;
+}
+
+/* Alerts */
+.alert {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-main) !important;
+  border: 1px solid var(--text-secondary) !important;
+}
+
+.alert-danger {
+  background-color: var(--error) !important;
+  color: #fff !important;
+}
+
+/* Card Component */
+.card {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-main) !important;
+  border: 1px solid var(--text-secondary) !important;
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-main) !important;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  background-color: var(--bg-secondary) !important;
+  color: var(--text-main) !important;
+}

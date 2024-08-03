@@ -1,0 +1,18 @@
+{
+  "Home": "Casita",
+  "About": "Sobre JO",
+  "locales": {
+    "en": {
+      "name": "Inglés",
+      "flag": "/img/flags/icon-USA.png"
+    },
+    "es": {
+      "name": "Español",
+      "flag": "/img/flags/icon-espanha.png"
+    },
+    "pt": {
+      "name": "Portugués",
+      "flag": "/img/flags/icon-brazil.png"
+    }
+  }
+}
